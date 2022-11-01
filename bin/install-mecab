@@ -2,9 +2,9 @@
 
 if [ $# == 1 ] && [ $1 == "ko" ]; then
     URL_MECAB=https://bitbucket.org/eunjeon/mecab-ko/downloads/mecab-0.996-ko-0.9.2.tar.gz
-    URL_MECAB_DIC=https://bitbucket.org/eunjeon/mecab-ko-dic/downloads/mecab-ko-dic-2.0.1-20150920.tar.gz
+    URL_MECAB_DIC=https://bitbucket.org/eunjeon/mecab-ko-dic/downloads/mecab-ko-dic-2.1.1-20180720.tar.gz
     DIR_MECAB=mecab-0.996-ko-0.9.2
-    DIR_MECAB_DIC=mecab-ko-dic-2.0.1-20150920
+    DIR_MECAB_DIC=mecab-ko-dic-2.1.1-20180720
 else
     URL_MECAB=http://mecab.googlecode.com/files/mecab-0.996.tar.gz
     URL_MECAB_DIC=http://mecab.googlecode.com/files/mecab-ipadic-2.7.0-20070801.tar.gz
